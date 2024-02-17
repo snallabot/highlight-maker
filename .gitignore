@@ -1,3 +1,7 @@
+# Highlight Maker ones
+test-videos/*
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
