@@ -187,9 +187,7 @@ while True:
         # ret, thresh = cv.threshold(gray, 127, 255, 0)
         # cv.bitwise_not(thresh, thresh)
         scoreboard = MaddenScoreboard()
-        awayScore = AwayScore()
         scoreboard.debug(frame)
-        awayScore.debug(frame)
         cv.imshow('frame', frame)
         cv.waitKey(1)
     currentFrame += 1
